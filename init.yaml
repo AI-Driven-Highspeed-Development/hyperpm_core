@@ -1,5 +1,6 @@
 version: 0.0.1
 folder_path: cores/hyperpm_core
 type: core
-requirements: []
+requirements: 
+  - https://github.com/AI-Driven-Highspeed-Development/vscode_kanbn_mcp.git
 repo_url: https://github.com/AI-Driven-Highspeed-Development/hyperpm_core.git
