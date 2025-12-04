@@ -3,4 +3,5 @@ folder_path: cores/hyperpm_core
 type: core
 requirements: 
   - https://github.com/AI-Driven-Highspeed-Development/vscode_kanbn_mcp.git
+  - https://github.com/AI-Driven-Highspeed-Development/Logger-Util.git
 repo_url: https://github.com/AI-Driven-Highspeed-Development/hyperpm_core.git
