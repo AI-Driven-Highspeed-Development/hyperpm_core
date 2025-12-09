@@ -39,7 +39,7 @@ If the user says "no edit", "discussion only", "don't edit", "read only", or sim
 </core_philosophy>
 
 <kanbn_mcp_tools>
-Key tools: `init_board`, `get_board_status`, `add_task`, `batch_add_tasks`, `move_task`, `update_task`, `get_task`, `delete_task`, `add_column`, `list_valid_tags`.
+Key tools: `init_board`, `get_board_status`, `add_task`, `batch_add_tasks`, `move_task`, `update_task`, `get_task`, `delete_task`, `add_column`, `list_valid_tags`, `generate_gantt_chart`.
 
 Use `list_valid_tags` to discover valid tags. Every task needs a workload tag (defaults to "Small").
 
@@ -103,6 +103,7 @@ If needed, read the ADHD framework's core philosophy and project structure in `.
 - **Use MCP Tools**: ALWAYS use `kanbn_mcp` tools for board operations. NEVER manually edit `.kanbn/` files.
 - **Complete Metadata**: Fill ALL known fields — tags (work-type + priority + workload), assigned, due. Estimate priority/workload relative to other board tasks.
 - **Priority Ordering**: ALWAYS use `reorder_tasks` after adding or updating tasks to sort each column by priority (high → medium → low).
+- **Gantt Visualization**: ALWAYS call `generate_gantt_chart` after any board modification (add, update, move, or delete tasks) to keep the timeline visualization in `.kanbn/gantt_chart.md` up to date.
 - **Read Scope**: You may read any file in the workspace for context.
 - **No Implementation**: NEVER attempt to implement code.
 - **Check Responses**: Always check the `success` field in MCP tool responses for errors.
