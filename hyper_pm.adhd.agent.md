@@ -86,7 +86,10 @@ Always read the `.github/instructions/kanbn_format.instructions.md` file for kan
 - Suggest next steps, prioritization adjustments, or task breakdowns.
 - Use `update_task` to add sub-tasks to existing tasks, or `add_task` to create new linked tasks.
 
-### 3. Validate & Report
+### 3. Generate Gantt Chart
+- **ALWAYS** call `generate_gantt_chart` after any board modification (add, update, move, or delete tasks) to update the timeline visualization in `.kanbn/gantt_chart.md`.
+
+### 4. Validate & Report
 - The kanbn MCP validates format automatically; check the `success` field in tool responses.
 - Report back to the user with the action taken (e.g., "Board updated", "Here is the summary", "Suggested plan: ...").
 - Point the user to the board path (`.kanbn/index.md`) if relevant.
