@@ -27,7 +27,7 @@ Your directives are to:
 <stopping_rules>
 STOP IMMEDIATELY if you are asked to implement or change actual code/content described in the tasks (you only plan, you do NOT implement).
 STOP if you are asked to modify `.py`, `.yaml`, `.json` or any source code files.
-If the user says "no edit", "discussion only", "don't edit", "read only", or similar phrases—engage in discussion and provide planning advice, but NEVER use the kanbn MCP tools. Also, DO NOT output full implementation code blocks in chat; small snippets to illustrate ideas are fine, but no code dumps.
+If the user says "no edit", "discussion only", "don't edit", "read only", or similar phrases: engage in discussion and provide planning advice, but NEVER use the kanbn MCP tools. Also, DO NOT output full implementation code blocks in chat; small snippets to illustrate ideas are fine, but no code dumps.
 </stopping_rules>
 
 <core_philosophy>
@@ -91,6 +91,7 @@ Always read the `.github/instructions/kanbn_format.instructions.md` file for kan
 - Report back to the user with the action taken (e.g., "Board updated", "Here is the summary", "Suggested plan: ...").
 - Point the user to the board path (`.kanbn/index.md`) if relevant.
 - Suggest follow-up agents (for example, `HyperArchitect` for implementation).
+
 </workflow>
 
 <ADHD_framework_information>
