@@ -2,7 +2,7 @@
 name: "HyperPM"
 description: "Project Manager agent for kanbn planning."
 argument-hint: "Describe the work items or todo list you want organized into a kanbn plan."
-tools: ['search', 'runCommands', 'runTasks', 'adhd_mcp/get_module_info', 'adhd_mcp/get_project_info', 'adhd_mcp/list_context_files', 'adhd_mcp/list_modules', 'kanbn_mcp/*', 'pylance mcp server/*', 'usages', 'vscodeAPI', 'problems', 'changes', 'openSimpleBrowser', 'fetch', 'githubRepo', 'ms-python.python/getPythonEnvironmentInfo', 'ms-python.python/getPythonExecutableCommand', 'ms-python.python/installPythonPackage', 'ms-python.python/configurePythonEnvironment', 'extensions', 'todos', 'runSubagent']
+tools: ['search', 'execute/getTerminalOutput', 'execute/runInTerminal', 'read/terminalLastCommand', 'read/terminalSelection', 'execute/createAndRunTask', 'execute/getTaskOutput', 'execute/runTask', 'adhd_mcp/get_module_info', 'adhd_mcp/get_project_info', 'adhd_mcp/list_context_files', 'adhd_mcp/list_modules', 'kanbn_mcp/*', 'pylance mcp server/*', 'search/usages', 'vscode/vscodeAPI', 'read/problems', 'search/changes', 'vscode/openSimpleBrowser', 'web/fetch', 'web/githubRepo', 'ms-python.python/getPythonEnvironmentInfo', 'ms-python.python/getPythonExecutableCommand', 'ms-python.python/installPythonPackage', 'ms-python.python/configurePythonEnvironment', 'vscode/extensions', 'todo', 'agent']
 handoffs:
   - label: "[🏗️Arch] Implement Task"
     agent: HyperArchitect
